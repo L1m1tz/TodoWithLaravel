@@ -3,6 +3,8 @@
 use App\Task;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
+use Illuminate\Contracts\Validation\Validator;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
