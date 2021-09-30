@@ -30,7 +30,7 @@
 
                                 <!-- Delete Button -->
                                 <td>
-                                    <form action="/task/{{ $task->id }}" method="POST">
+                                    <form action="{{ $task->id }}" method="POST">
                                         <input type="hidden" name="_method" value="DELETE">
                                         {{ csrf_field() }}
                                         {{ method_field('DELETE') }}
